@@ -1,17 +1,12 @@
-const accountId=12345
-let accountEmail="kashif@gmail.com"
-var accountPassword ="12345"
-accountCity="jaipur"
-/*
-prefer not to use var
-because of issue in block scope and functional scope
-*/
+//Date
+let myDate= new Date()
+console.log(myDate.toString());
+console.log(myDate.toDateString());
+console.log(myDate.toLocaleString());
+console.log(typeof myDate);
 
-accountEmail="mdanam@gmail.com"
-accountPassword="4444"
-accountCity="ghazipur"
 
-console.log(accountId);
 
-console.table([accountCity,accountPassword,accountEmail])
+
+
 
